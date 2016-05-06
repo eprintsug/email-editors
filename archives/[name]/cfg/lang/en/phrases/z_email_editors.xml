@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?> <!DOCTYPE phrases SYSTEM "entities.dtd"> <epp:phrases xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+    <epp:phrase id="user_fieldname_send_review_email">Notify me when an item is deposited</epp:phrase>
+    <epp:phrase id="user_fieldhelp_send_review_email">Will turn on immediate emails when an eprint is deposited</epp:phrase>
+    <epp:phrase id="user_fieldopt_send_review_email_FALSE">No</epp:phrase>
+    <epp:phrase id="user_fieldopt_send_review_email_TRUE">Yes</epp:phrase>
+
+    <epp:phrase id="email_editors_subject">Review item: <epc:pin name="title"/></epp:phrase>
+    <epp:phrase id="email_editors_body">
+<div style="font-size: 11pt">Item for review</div>
+<p><epc:pin name="depositor"/> has deposited <b><epc:pin name="title"/></b> and it is now ready for review..</p>
+<p>You can <epc:pin name="edit_link">review the item</epc:pin> now.</p>
+</epp:phrase>
+
+</epp:phrases>
